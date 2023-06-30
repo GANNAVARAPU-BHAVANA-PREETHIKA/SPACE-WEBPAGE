@@ -1,0 +1,26 @@
+<html>
+<head>
+  <style>
+    #hidden {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://www.ctvnews.ca/polopoly_fs/1.6373834.1682610118!/httpImage/image.jpg_gen/derivatives/landscape_1020/image.jpg" width="500" height="300" alt="Image" onclick="showContent()">
+  <div id="hidden">
+    <p>BLACK HOLES</p>
+  </div>
+  <script>
+    function showContent() {
+      let hidden = document.getElementById("hidden");
+      if (hidden.style.display == "none") {
+        hidden.style.display = "block";
+      } else {
+        hidden.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>
+
